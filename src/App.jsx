@@ -15,6 +15,7 @@ export default function App() {
         className="search"
         onChange={(e) => setQuery(e.target.value)}
       />
+      {/* basic search
       <ul className="list">
         {Users.filter((user) =>
           user.first_name.toLowerCase().includes(query)
@@ -23,7 +24,7 @@ export default function App() {
             {user.first_name}
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }
